@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+               
+
+               
+               <ImageView
+                   android:layout_width="10dp"
+                   android:layout_height="10dp"
+                   android:src="@drawable/gpa"
+                   android:gravity="center"
+                   android:layout_marginBottom="15dp"
+                   android:layout_marginTop="30sp"
+                   />
+
+
+
+
+         </LinearLayout>
+
+
+         <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+             <TextView
+                 android:layout_width="390dp"
+                 android:layout_height="30dp"
+                 android:text="Name"
+                 android:layout_marginStart="5sp"
+                 android:textSize="20sp"
+                 android:textColor="@color/blue"
+                 android:textStyle="bold"
+                 />
+
+             <EditText
+                 android:layout_width="370dp"
+                 android:layout_height="50dp"
+                 android:layout_marginStart="10sp"
+                 android:id="@+id/stname"
+                 android:textColor="@color/design_default_color_on_primary"
+                  android:gravity="center"
+                 />
+
+
+
+             <TextView
+                 android:layout_width="390dp"
+                 android:layout_height="30dp"
+                 android:text="Math"
+                 android:layout_marginStart="5sp"
+                 android:textSize="20sp"
+                 android:textColor="@color/blue"
+                 android:textStyle="bold"/>
+             <EditText
+                 android:layout_width="370dp"
+                 android:layout_height="50dp"
+                 android:layout_marginStart="10sp"
+                 android:id="@+id/mark1"
+                 android:textColor="@color/design_default_color_on_primary"
+                 android:gravity="center"
+                 />
+
+             <TextView
+                 android:layout_width="390dp"
+                 android:layout_height="30dp"
+                 android:text="Geometry"
+                 android:layout_marginStart="5sp"
+                 android:textSize="20sp"
+                 android:textColor="@color/blue"
+                 android:textStyle="bold"/>
+             <EditText
+                 android:layout_width="370dp"
+                 android:layout_height="50dp"
+                 android:layout_marginStart="10sp"
+                 android:id="@+id/mark2"
+                 android:textColor="@color/design_default_color_on_primary"
+                 android:gravity="center"
+                 />
+
+             <TextView
+                 android:layout_width="390dp"
+                 android:layout_height="30dp"
+                 android:text="Total"
+                 android:layout_marginStart="5sp"
+                 android:textSize="20sp"
+                 android:textColor="@color/blue"
+                 android:textStyle="bold"/>
+             <EditText
+                 android:layout_width="370dp"
+                 android:layout_height="50dp"
+                 android:layout_marginStart="10sp"
+                 android:id="@+id/total"
+                 android:textColor="@color/design_default_color_on_primary"
+                 android:gravity="center"
+                 />
+
+             <TextView
+                 android:layout_width="390dp"
+                 android:layout_height="30dp"
+                 android:text="Average"
+                 android:layout_marginStart="5sp"
+                 android:textSize="20sp"
+                 android:textColor="@color/blue"
+                 android:textStyle="bold"/>
+             <EditText
+                 android:layout_width="370dp"
+                 android:layout_height="40dp"
+                 android:layout_marginStart="10sp"
+                 android:id="@+id/avg"
+                 android:textColor="@color/design_default_color_on_primary"
+                 android:gravity="center"
+                 />
+             <TextView
+                 android:layout_width="390dp"
+                 android:layout_height="30dp"
+                 android:text="Grade"
+                 android:layout_marginStart="5sp"
+                 android:textSize="20sp"
+                 android:textColor="@color/blue"
+                 android:textStyle="bold"/>
+             <EditText
+                 android:layout_width="370dp"
+                 android:layout_height="40dp"
+                 android:layout_marginStart="10sp"
+                 android:id="@+id/grade"
+                 android:textColor="@color/design_default_color_on_primary"
+                 android:gravity="center"
+                 />
+
+             <androidx.appcompat.widget.AppCompatButton
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="OK"
+                 android:id="@+id/btn1"
+                 android:background="@drawable/buttonbackground"
+                 android:textColor="@color/white"
+                 android:layout_gravity="start"
+                 android:layout_marginTop="40dp"
+                 android:layout_marginStart="40dp"
+                 android:layout_marginBottom="-45dp"
+                 />
+
+             <androidx.appcompat.widget.AppCompatButton
+                 android:id="@+id/btn2"
+                 android:layout_width="100dp"
+                 android:layout_height="45dp"
+                 android:layout_gravity="start"
+                 android:layout_marginStart="280dp"
+                 android:layout_marginBottom="80dp"
+                 android:background="@drawable/buttonback2"
+                 android:text="Clear"
+                 android:textColor="@color/white"
+                 android:textStyle="bold"
+                 />
+
+
+         </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
