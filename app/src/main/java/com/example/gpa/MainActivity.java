@@ -12,7 +12,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     EditText editStudentName,editMath,editGeo,editTotal,editAve,editGrade;
-    Button ok,clearbtn;
+    Button ok,clearbtn1;
 
 
     @Override
@@ -27,11 +27,11 @@ public class MainActivity extends AppCompatActivity {
         editAve=findViewById(R.id.avg);
         editGrade=findViewById(R.id.grade);
         ok=findViewById(R.id.btn1);
-        clearbtn=findViewById(R.id.btn2);
+        clearbtn1=findViewById(R.id.btn2);
 
 
 
-        clearbtn.setOnClickListener(new View.OnClickListener() {
+        clearbtn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 clear();
